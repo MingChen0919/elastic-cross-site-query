@@ -1,0 +1,11 @@
+cluster.name : my-cluster
+node.name : ip84-cluster-01-node-01
+path.data : /var/lib/elasticsearch_cluster-01-node-01
+path.logs : /var/log/elasticsearch_cluster-01-node-01
+network.host : 0.0.0.0
+http.port : 9201
+bootstrap.memory_lock : true
+discovery.zen.minimum_master_nodes: 3
+discovery.zen.ping.unicast.hosts: ["149.165.157.84:8080", "149.165.157.49:8080"]
+node.data: true
+network.publish_host: 149.165.157.84
