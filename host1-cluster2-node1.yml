@@ -1,0 +1,25 @@
+#----cluster name---------------
+cluster.name : my-cluster-02
+
+#----node module settings-------
+node.name : host1-cluster2-node1
+node.master: true
+node.data: true
+path.data : /var/lib/elasticsearch_cluster-01-node-02
+path.logs : /var/log/elasticsearch_cluster-01-node-02
+
+#----network module settings--------
+network.publish_host: 149.165.157.49
+network.bind_host: 0.0.0.0
+
+#----transport module settings------
+http.port : 9202
+transport.tcp.port: 9302
+
+#----discovery module settings------
+discovery.zen.minimum_master_nodes: 2
+discovery.zen.ping.unicast.hosts: ["149.165.157.84"]
+
+#----configure swapiness------------
+bootstrap.memory_lock : true
+
