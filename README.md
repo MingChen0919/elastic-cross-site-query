@@ -39,7 +39,7 @@ We also needs to expose two another ports for **transport tcp ports**. Here port
 ```
 sudo docker run -it -p 80:80 \
   -p 9201:9201 -p 9202:9202 \
-  -p 9301:9301 -p 9302:9302 
+  -p 9301:9301 -p 9302:9302 \
   mingchen0919/docker-tripal-centos /bin/bash
 ```
 
