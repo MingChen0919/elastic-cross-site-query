@@ -6,7 +6,7 @@ In this example, two jetstream VMs are luanched. A tripal docker container (http
 launched within each VM. Each container deploys a Tripal site and two Elasticsearch instances. 
 
 To make it easier to explain, I give different names to the the two docker containers and fours elasticsearch instances, respectively:
-
+<code>
 * host1: the docker container running on VM 1, which has IP address `149.165.157.49`
 * host2: the docker container running on VM 2, which has IP address `149.165.157.84`
 
@@ -14,7 +14,7 @@ To make it easier to explain, I give different names to the the two docker conta
 * host2-cluster1-node2: elastic instance running from container 2 (host2)
 * host1-cluster2-node1: elastic instance running from container 1 (host1)
 * host2-cluster2-node1: elastic instance running from container 2 (host2)
-
+</code>
 There are two elasticsearch clusters. Each cluster has two nodes from two different hosts.
 
 # Launch tripal site container
