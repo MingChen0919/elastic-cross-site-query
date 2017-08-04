@@ -5,8 +5,8 @@ cluster.name : my-cluster-01
 node.name : host1-cluster1-node1
 node.master: true
 node.data: true
-path.data : /var/lib/elasticsearch_cluster-01-node-02
-path.logs : /var/log/elasticsearch_cluster-01-node-02
+path.data : /var/lib/elasticsearch_cluster-01-node-01
+path.logs : /var/log/elasticsearch_cluster-01-node-01
 
 #----network module settings--------
 network.publish_host: 149.165.157.49
